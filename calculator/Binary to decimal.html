@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src=""></script>
+  <link rel="stylesheet" href="binary.css">
+  <link rel="icon" type="image/png"  href="01.png">
+
+  <script src="https://kit.fontawesome.com/f7eb3a2707.js" crossorigin="anonymous"></script>
+  <title>Binary to decimal</title>
+</head>
+<body>
+  
+    <header id="header">
+        <section id="logo">
+        <i  style="background-color: white; color: #ff4e3a;" class="fa-solid fa-less-than"></i>
+        <i class="fa-solid fa-calculator"></i>
+        <i  style="background-color: white; color: #ff4e3a;" class="fa-solid fa-greater-than"></i>
+        </section>
+        <p>.</p>
+        <a id="log" href="calculator web.html"><h3>&lt HOME</h3></a>
+    </header> 
+    <div id="name">
+      <p><img src="01.png" alt="" height="130" width="130"><h3>CONVERT BINARY TO DECIMAL </h3></p>
+     </div>
+
+    <div id="main_menu">
+        <section class="option">
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label><h3>Enter a binary</h3></label>
+                    <input type = "number" id="binary" class="form-control" style="outline:none ;"/>
+                </div>
+                <br>
+                <button class="btn btn-primary" onclick="binaryToDecimal();">Convert</button> <button class="btn btn-success" onclick="reset();">Reset</button>
+                
+                <br><br>
+                <div id = "result"></div>
+            </div>
+            
+        </section>
+    
+    </div>
+    
+</body>
+<script src="binary.js"></script>
+
+</html>

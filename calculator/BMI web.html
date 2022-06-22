@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src=""></script>
+  <link rel="stylesheet" href="BIMc.css">
+  <link rel="icon" type="image/png"  href="BMI.png">
+
+   
+  <script src="https://kit.fontawesome.com/f7eb3a2707.js" crossorigin="anonymous"></script>
+  <title>BMI calculator</title>
+</head>
+<body>
+  
+    <header id="header">
+        <section id="logo">
+        <i  style="background-color: white; color: #ff4e3a;" class="fa-solid fa-less-than"></i>
+        <i class="fa-solid fa-calculator"></i>
+        <i  style="background-color: white; color: #ff4e3a;" class="fa-solid fa-greater-than"></i>
+        </section>
+        <p>.</p>
+        <a id="log" href="calculator web.html"><h3>&lt HOME</h3></a>
+    </header> 
+    <div id="name">
+      <p><img src="BMI.png" alt="" height="130" width="130"><h3 style="color:#1e1c4a;">BMI CALCULATOR </h3></p>
+     </div>
+
+    <div id="main_menu">
+        <section class="option">
+
+            <div class="container">
+                <h1 style="color:#1e1c4a;">BMI VALUE</h1>
+                <div class="display">
+                            <p id="result">20.0</p>
+                            <p id="category">Normal weight</p>
+                </div>
+            <div class="row">
+                <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()">
+                <span id="weight-val">20 kg</span>
+            </div>
+            <div class="row">
+                <input style="margin-left:12px" type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+                <span id="height-val">100 cm</span>
+            </div>
+    
+    
+        </div>
+            
+        </section>
+    
+    </div>
+    
+</body>
+<script src="BMI.js"></script>
+
+</html>
