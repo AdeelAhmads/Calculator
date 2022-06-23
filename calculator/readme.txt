@@ -7,4 +7,4 @@ ii)Can convert binary values to decimal values
 iii)Calculte your BMI
 iv) Find exact age till current date
 
-![](Screenshot/Screenshot%20(147).png)
+
