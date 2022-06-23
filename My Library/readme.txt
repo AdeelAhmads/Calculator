@@ -1,4 +1,0 @@
--This website named library is about reading books online.
--Languages used to built this site are HTML and CSS.
--Give access to the users to read highly rated books for free.
--Provides smooth UI while reading. 
